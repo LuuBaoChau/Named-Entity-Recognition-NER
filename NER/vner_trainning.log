@@ -1,0 +1,5102 @@
+Lock 140611048065552 acquired on /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729.lock
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpn0awtegs
+storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt in cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+creating metadata file for /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Lock 140611048065552 released on /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729.lock
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+Lock 140610906203728 acquired on /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0.lock
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmp2tw_et5q
+storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json in cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+creating metadata file for /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Lock 140610906203728 released on /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0.lock
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+Lock 140611048132560 acquired on /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059.lock
+https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmph0_56ff3
+storing https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin in cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+creating metadata file for /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Lock 140611048132560 released on /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059.lock
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+==============================Summary==============================
+MODEL:
+	BERT model: bert-base-multilingual-cased
+	Number of parameters: 177861130
+DATASET:
+	Number of train Examples: 1255
+	Number of eval Examples: 9
+	Number of labels: 9
+Hyper-Parameters:
+	Max sequence length: 128
+	Learning rate: 2e-05
+	Number of epochs: 100.0
+	Train batch size: 8
+	Eval batch size: 4
+	Adam epsilon: 1e-08
+	Weight decay: 0.0
+	Warmup Proportion: 0.1
+	Max grad norm: 1.0
+	Gradient accumulation steps: 1
+	Seed: 42
+	Cuda: True
+	Feat config: None
+	Use one-hot embbeding: False
+	Output directory: outputs
+	Log directory: logs
+==============================Epoch 0==============================
+train Loss: 196.59216681867838
+eval Loss: 0.9375504739582539
+F1-Score tag: 0.49844236760124605
+F1-Score IOB-tag: 0.49844236760124605
+Metric:
+	O: 0.9968847352024921
+	MISC: 0.0
+	PER: 0.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 0 with best score 0.49844236760124605
+==============================Epoch 1==============================
+train Loss: 28.41879265755415
+eval Loss: 0.023201410192996264
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 1 with best score 1.0
+==============================Epoch 2==============================
+train Loss: 13.951886435505003
+eval Loss: 0.09882187924813479
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 3==============================
+train Loss: 7.469231947558001
+eval Loss: 0.009159033827017993
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 4==============================
+train Loss: 4.3366634324193
+eval Loss: 0.002038364880718291
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 5==============================
+train Loss: 2.4410902119707316
+eval Loss: 0.0014920321118552238
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 6==============================
+train Loss: 1.800671479140874
+eval Loss: 0.001139923944720067
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 7==============================
+train Loss: 1.4294471230532508
+eval Loss: 0.008769773572566919
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 8==============================
+train Loss: 1.0285970420809463
+eval Loss: 0.0006274258921621367
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 9==============================
+train Loss: 1.0247821001394186
+eval Loss: 0.004269814337021671
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 10==============================
+train Loss: 1.0576102877676021
+eval Loss: 0.00046756764641031623
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 11==============================
+train Loss: 1.0594359852402704
+eval Loss: 0.001052583334967494
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 12==============================
+train Loss: 0.5215790050278883
+eval Loss: 0.00032043315150076523
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 13==============================
+train Loss: 0.7262608382297913
+eval Loss: 0.000323287611536216
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 14==============================
+train Loss: 0.25499806433799677
+eval Loss: 0.0002263459246023558
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 15==============================
+train Loss: 0.27629451437678654
+eval Loss: 0.00020557136667775922
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 16==============================
+train Loss: 0.3927560608863132
+eval Loss: 0.00020729067909996957
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 17==============================
+train Loss: 0.33379061261803145
+eval Loss: 0.0001993468358705286
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 18==============================
+train Loss: 0.3807680203317432
+eval Loss: 0.0001663099101278931
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 19==============================
+train Loss: 0.14665757664624834
+eval Loss: 0.00014071203986532055
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 20==============================
+train Loss: 0.36586422788968775
+eval Loss: 0.00014077256491873413
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 21==============================
+train Loss: 0.34989141300320625
+eval Loss: 0.00015619973783032037
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 22==============================
+train Loss: 0.22966377358534373
+eval Loss: 0.0001552706708025653
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 23==============================
+train Loss: 0.29789579853240866
+eval Loss: 0.00012018630877719261
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 24==============================
+train Loss: 0.588089644232241
+eval Loss: 0.0001909401653392706
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 25==============================
+train Loss: 0.5165139933233149
+eval Loss: 0.00010065095557365566
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 26==============================
+train Loss: 0.207778016487282
+eval Loss: 0.00014939308130124118
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 27==============================
+train Loss: 0.08729340351055725
+eval Loss: 8.64323756104568e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 28==============================
+train Loss: 0.17658795860188548
+eval Loss: 0.00012123548731324263
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 29==============================
+train Loss: 0.11602489162396523
+eval Loss: 8.57026443554787e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 30==============================
+train Loss: 0.07018728096591076
+eval Loss: 7.382932744803838e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 31==============================
+train Loss: 0.194437565314729
+eval Loss: 6.567408490809612e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 32==============================
+train Loss: 0.6009770669625141
+eval Loss: 0.00020023571414640173
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 33==============================
+train Loss: 0.2988946194345772
+eval Loss: 8.091698509815615e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 34==============================
+train Loss: 0.3832300236717856
+eval Loss: 6.677168858004734e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 35==============================
+train Loss: 0.17354633443028433
+eval Loss: 5.96841964579653e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 36==============================
+train Loss: 0.12995805853279307
+eval Loss: 5.124657764099538e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 37==============================
+train Loss: 0.08468583712601685
+eval Loss: 5.3441037380252965e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 38==============================
+train Loss: 0.015653865280910395
+eval Loss: 6.227715039130999e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 39==============================
+train Loss: 0.07201602495661064
+eval Loss: 4.2507278521952685e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 40==============================
+train Loss: 0.05093759331066394
+eval Loss: 4.870387328992365e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 41==============================
+train Loss: 0.007621366694365861
+eval Loss: 5.000348755856976e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 42==============================
+train Loss: 0.01942091531782353
+eval Loss: 4.814372459804872e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 43==============================
+train Loss: 0.006221308241947554
+eval Loss: 3.246309734095121e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 44==============================
+train Loss: 0.005532541925276746
+eval Loss: 3.232583094359143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 45==============================
+train Loss: 0.04899506497713446
+eval Loss: 3.024231318704551e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 46==============================
+train Loss: 0.310770635609515
+eval Loss: 0.00010056040810013656
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 47==============================
+train Loss: 0.555347023624563
+eval Loss: 4.7061323130037636e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 48==============================
+train Loss: 0.032326808977813926
+eval Loss: 0.00027988052079308545
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 49==============================
+train Loss: 0.09234409341297578
+eval Loss: 3.927230864064768e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 50==============================
+train Loss: 0.21641912298400712
+eval Loss: 3.066791032324545e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 51==============================
+train Loss: 0.09108254830061924
+eval Loss: 3.240664773329627e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 52==============================
+train Loss: 0.3814206168426608
+eval Loss: 2.7225692974752747e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 53==============================
+train Loss: 0.5441733440602547
+eval Loss: 2.6795154553838074e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 54==============================
+train Loss: 0.09144132334949973
+eval Loss: 2.6566874566924525e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 55==============================
+train Loss: 0.1671726442364161
+eval Loss: 9.72641842054145e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 56==============================
+train Loss: 0.009238987740900484
+eval Loss: 2.1600722902803682e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 57==============================
+train Loss: 0.010736902725511754
+eval Loss: 1.9150852040183963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 58==============================
+train Loss: 0.03690849340546265
+eval Loss: 2.043238237092737e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 59==============================
+train Loss: 0.005225312931543158
+eval Loss: 3.7980079468979966e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 60==============================
+train Loss: 0.006705054122903675
+eval Loss: 1.600462610440445e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 61==============================
+train Loss: 0.08646090210459079
+eval Loss: 1.5756977063574595e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 62==============================
+train Loss: 0.045226160758375045
+eval Loss: 1.5009741218818817e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 63==============================
+train Loss: 0.08372431083444098
+eval Loss: 1.3371943168749567e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 64==============================
+train Loss: 0.01870735021930159
+eval Loss: 1.663495640968904e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 65==============================
+train Loss: 0.0693312266112116
+eval Loss: 1.502095665273373e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 66==============================
+train Loss: 0.05813955688972783
+eval Loss: 1.4632088550570188e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 67==============================
+train Loss: 0.03550783247828804
+eval Loss: 1.2440880709618796e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 68==============================
+train Loss: 0.17245592861581827
+eval Loss: 1.2429555226844968e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 69==============================
+train Loss: 0.0059997202301929065
+eval Loss: 1.984702225854562e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 70==============================
+train Loss: 0.055683345293346065
+eval Loss: 1.0600911991787143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 71==============================
+train Loss: 0.07749302873253328
+eval Loss: 9.507265986030689e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 72==============================
+train Loss: 0.35087243454654526
+eval Loss: 1.1576122233236674e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 73==============================
+train Loss: 0.0034143309517276066
+eval Loss: 9.558666533848736e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 74==============================
+train Loss: 0.046829227439502574
+eval Loss: 9.310102313975221e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 75==============================
+train Loss: 0.006036630868038628
+eval Loss: 1.0113967164215865e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 76==============================
+train Loss: 0.03617325492768941
+eval Loss: 9.274482636101311e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 77==============================
+train Loss: 0.14498146289270153
+eval Loss: 2.2433574940805556e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 78==============================
+train Loss: 0.004315406285968493
+eval Loss: 1.2940748092660215e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 79==============================
+train Loss: 0.06152832426596433
+eval Loss: 1.1418615713409963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 80==============================
+train Loss: 0.04685739237447706
+eval Loss: 1.04555083453306e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 81==============================
+train Loss: 0.003678448889786523
+eval Loss: 9.685092663858086e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 82==============================
+train Loss: 0.040388289155544044
+eval Loss: 9.251235496776644e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 83==============================
+train Loss: 0.003218300836124399
+eval Loss: 9.252064273823635e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 84==============================
+train Loss: 0.0029881545974603796
+eval Loss: 9.031224180944264e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 85==============================
+train Loss: 0.0027703600062523037
+eval Loss: 7.973147148732096e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 86==============================
+train Loss: 0.0026278892887603433
+eval Loss: 7.25049244465481e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 87==============================
+train Loss: 0.0025044207941391505
+eval Loss: 6.880318096591509e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 88==============================
+train Loss: 0.00246002371159193
+eval Loss: 6.564458089997061e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 89==============================
+train Loss: 0.0024187259241443826
+eval Loss: 6.298223979683826e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 90==============================
+train Loss: 0.002307560726421798
+eval Loss: 1.0514259429328376e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 91==============================
+train Loss: 0.002268353182444116
+eval Loss: 6.3351221797347534e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 92==============================
+train Loss: 0.0021960075027891435
+eval Loss: 6.337426839309046e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 93==============================
+train Loss: 0.002206066046255728
+eval Loss: 6.868725904496387e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 94==============================
+train Loss: 0.0022094518212725234
+eval Loss: 6.277169859458809e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 95==============================
+train Loss: 0.0020687146361524356
+eval Loss: 7.495880026908708e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 96==============================
+train Loss: 0.0030729501345376775
+eval Loss: 6.393149988070945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 97==============================
+train Loss: 0.0020526496118691284
+eval Loss: 6.295886805673945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 98==============================
+train Loss: 0.0020289697085900116
+eval Loss: 6.5273709424218396e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 99==============================
+train Loss: 0.002021308294388291
+eval Loss: 6.084442247811239e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+Lock 140459890866896 acquired on /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729.lock
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpufg288_4
+storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt in cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+creating metadata file for /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Lock 140459890866896 released on /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729.lock
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+Lock 140459890836176 acquired on /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0.lock
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmp77gh_llg
+storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json in cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+creating metadata file for /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Lock 140459890836176 released on /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0.lock
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+Lock 140459890789072 acquired on /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059.lock
+https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmp31a2lw8u
+storing https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin in cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+creating metadata file for /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Lock 140459890789072 released on /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059.lock
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+==============================Summary==============================
+MODEL:
+	BERT model: bert-base-multilingual-cased
+	Number of parameters: 177861130
+DATASET:
+	Number of train Examples: 1255
+	Number of eval Examples: 9
+	Number of labels: 9
+Hyper-Parameters:
+	Max sequence length: 128
+	Learning rate: 2e-05
+	Number of epochs: 100.0
+	Train batch size: 8
+	Eval batch size: 4
+	Adam epsilon: 1e-08
+	Weight decay: 0.0
+	Warmup Proportion: 0.1
+	Max grad norm: 1.0
+	Gradient accumulation steps: 1
+	Seed: 42
+	Cuda: True
+	Feat config: None
+	Use one-hot embbeding: False
+	Output directory: outputs
+	Log directory: logs
+==============================Epoch 0==============================
+train Loss: 196.59216681867838
+eval Loss: 0.9375504739582539
+F1-Score tag: 0.49844236760124605
+F1-Score IOB-tag: 0.49844236760124605
+Metric:
+	O: 0.9968847352024921
+	MISC: 0.0
+	PER: 0.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 0 with best score 0.49844236760124605
+==============================Epoch 1==============================
+train Loss: 28.41879265755415
+eval Loss: 0.023201410192996264
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 1 with best score 1.0
+==============================Epoch 2==============================
+train Loss: 13.951886435505003
+eval Loss: 0.09882187924813479
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 3==============================
+train Loss: 7.469231947558001
+eval Loss: 0.009159033827017993
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 4==============================
+train Loss: 4.3366634324193
+eval Loss: 0.002038364880718291
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 5==============================
+train Loss: 2.4410902119707316
+eval Loss: 0.0014920321118552238
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 6==============================
+train Loss: 1.800671479140874
+eval Loss: 0.001139923944720067
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 7==============================
+train Loss: 1.4294471230532508
+eval Loss: 0.008769773572566919
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 8==============================
+train Loss: 1.0285970420809463
+eval Loss: 0.0006274258921621367
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 9==============================
+train Loss: 1.0247821001394186
+eval Loss: 0.004269814337021671
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 10==============================
+train Loss: 1.0576102877676021
+eval Loss: 0.00046756764641031623
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 11==============================
+train Loss: 1.0594359852402704
+eval Loss: 0.001052583334967494
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 12==============================
+train Loss: 0.5215790050278883
+eval Loss: 0.00032043315150076523
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 13==============================
+train Loss: 0.7262608382297913
+eval Loss: 0.000323287611536216
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 14==============================
+train Loss: 0.25499806433799677
+eval Loss: 0.0002263459246023558
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 15==============================
+train Loss: 0.27629451437678654
+eval Loss: 0.00020557136667775922
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 16==============================
+train Loss: 0.3927560608863132
+eval Loss: 0.00020729067909996957
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 17==============================
+train Loss: 0.33379061261803145
+eval Loss: 0.0001993468358705286
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 18==============================
+train Loss: 0.3807680203317432
+eval Loss: 0.0001663099101278931
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 19==============================
+train Loss: 0.14665757664624834
+eval Loss: 0.00014071203986532055
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 20==============================
+train Loss: 0.36586422788968775
+eval Loss: 0.00014077256491873413
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 21==============================
+train Loss: 0.34989141300320625
+eval Loss: 0.00015619973783032037
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 22==============================
+train Loss: 0.22966377358534373
+eval Loss: 0.0001552706708025653
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 23==============================
+train Loss: 0.29789579853240866
+eval Loss: 0.00012018630877719261
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 24==============================
+train Loss: 0.588089644232241
+eval Loss: 0.0001909401653392706
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 25==============================
+train Loss: 0.5165139933233149
+eval Loss: 0.00010065095557365566
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 26==============================
+train Loss: 0.207778016487282
+eval Loss: 0.00014939308130124118
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 27==============================
+train Loss: 0.08729340351055725
+eval Loss: 8.64323756104568e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 28==============================
+train Loss: 0.17658795860188548
+eval Loss: 0.00012123548731324263
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 29==============================
+train Loss: 0.11602489162396523
+eval Loss: 8.57026443554787e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 30==============================
+train Loss: 0.07018728096591076
+eval Loss: 7.382932744803838e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 31==============================
+train Loss: 0.194437565314729
+eval Loss: 6.567408490809612e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 32==============================
+train Loss: 0.6009770669625141
+eval Loss: 0.00020023571414640173
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 33==============================
+train Loss: 0.2988946194345772
+eval Loss: 8.091698509815615e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 34==============================
+train Loss: 0.3832300236717856
+eval Loss: 6.677168858004734e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 35==============================
+train Loss: 0.17354633443028433
+eval Loss: 5.96841964579653e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 36==============================
+train Loss: 0.12995805853279307
+eval Loss: 5.124657764099538e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 37==============================
+train Loss: 0.08468583712601685
+eval Loss: 5.3441037380252965e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 38==============================
+train Loss: 0.015653865280910395
+eval Loss: 6.227715039130999e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 39==============================
+train Loss: 0.07201602495661064
+eval Loss: 4.2507278521952685e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 40==============================
+train Loss: 0.05093759331066394
+eval Loss: 4.870387328992365e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 41==============================
+train Loss: 0.007621366694365861
+eval Loss: 5.000348755856976e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 42==============================
+train Loss: 0.01942091531782353
+eval Loss: 4.814372459804872e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 43==============================
+train Loss: 0.006221308241947554
+eval Loss: 3.246309734095121e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 44==============================
+train Loss: 0.005532541925276746
+eval Loss: 3.232583094359143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 45==============================
+train Loss: 0.04899506497713446
+eval Loss: 3.024231318704551e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 46==============================
+train Loss: 0.310770635609515
+eval Loss: 0.00010056040810013656
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 47==============================
+train Loss: 0.555347023624563
+eval Loss: 4.7061323130037636e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 48==============================
+train Loss: 0.032326808977813926
+eval Loss: 0.00027988052079308545
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 49==============================
+train Loss: 0.09234409341297578
+eval Loss: 3.927230864064768e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 50==============================
+train Loss: 0.21641912298400712
+eval Loss: 3.066791032324545e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 51==============================
+train Loss: 0.09108254830061924
+eval Loss: 3.240664773329627e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 52==============================
+train Loss: 0.3814206168426608
+eval Loss: 2.7225692974752747e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 53==============================
+train Loss: 0.5441733440602547
+eval Loss: 2.6795154553838074e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 54==============================
+train Loss: 0.09144132334949973
+eval Loss: 2.6566874566924525e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 55==============================
+train Loss: 0.1671726442364161
+eval Loss: 9.72641842054145e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 56==============================
+train Loss: 0.009238987740900484
+eval Loss: 2.1600722902803682e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 57==============================
+train Loss: 0.010736902725511754
+eval Loss: 1.9150852040183963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 58==============================
+train Loss: 0.03690849340546265
+eval Loss: 2.043238237092737e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 59==============================
+train Loss: 0.005225312931543158
+eval Loss: 3.7980079468979966e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 60==============================
+train Loss: 0.006705054122903675
+eval Loss: 1.600462610440445e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 61==============================
+train Loss: 0.08646090210459079
+eval Loss: 1.5756977063574595e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 62==============================
+train Loss: 0.045226160758375045
+eval Loss: 1.5009741218818817e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 63==============================
+train Loss: 0.08372431083444098
+eval Loss: 1.3371943168749567e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 64==============================
+train Loss: 0.01870735021930159
+eval Loss: 1.663495640968904e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 65==============================
+train Loss: 0.0693312266112116
+eval Loss: 1.502095665273373e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 66==============================
+train Loss: 0.05813955688972783
+eval Loss: 1.4632088550570188e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 67==============================
+train Loss: 0.03550783247828804
+eval Loss: 1.2440880709618796e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 68==============================
+train Loss: 0.17245592861581827
+eval Loss: 1.2429555226844968e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 69==============================
+train Loss: 0.0059997202301929065
+eval Loss: 1.984702225854562e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 70==============================
+train Loss: 0.055683345293346065
+eval Loss: 1.0600911991787143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 71==============================
+train Loss: 0.07749302873253328
+eval Loss: 9.507265986030689e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 72==============================
+train Loss: 0.35087243454654526
+eval Loss: 1.1576122233236674e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 73==============================
+train Loss: 0.0034143309517276066
+eval Loss: 9.558666533848736e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 74==============================
+train Loss: 0.046829227439502574
+eval Loss: 9.310102313975221e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 75==============================
+train Loss: 0.006036630868038628
+eval Loss: 1.0113967164215865e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 76==============================
+train Loss: 0.03617325492768941
+eval Loss: 9.274482636101311e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 77==============================
+train Loss: 0.14498146289270153
+eval Loss: 2.2433574940805556e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 78==============================
+train Loss: 0.004315406285968493
+eval Loss: 1.2940748092660215e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 79==============================
+train Loss: 0.06152832426596433
+eval Loss: 1.1418615713409963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 80==============================
+train Loss: 0.04685739237447706
+eval Loss: 1.04555083453306e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 81==============================
+train Loss: 0.003678448889786523
+eval Loss: 9.685092663858086e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 82==============================
+train Loss: 0.040388289155544044
+eval Loss: 9.251235496776644e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 83==============================
+train Loss: 0.003218300836124399
+eval Loss: 9.252064273823635e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 84==============================
+train Loss: 0.0029881545974603796
+eval Loss: 9.031224180944264e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 85==============================
+train Loss: 0.0027703600062523037
+eval Loss: 7.973147148732096e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 86==============================
+train Loss: 0.0026278892887603433
+eval Loss: 7.25049244465481e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 87==============================
+train Loss: 0.0025044207941391505
+eval Loss: 6.880318096591509e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 88==============================
+train Loss: 0.00246002371159193
+eval Loss: 6.564458089997061e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 89==============================
+train Loss: 0.0024187259241443826
+eval Loss: 6.298223979683826e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 90==============================
+train Loss: 0.002307560726421798
+eval Loss: 1.0514259429328376e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 91==============================
+train Loss: 0.002268353182444116
+eval Loss: 6.3351221797347534e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 92==============================
+train Loss: 0.0021960075027891435
+eval Loss: 6.337426839309046e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 93==============================
+train Loss: 0.002206066046255728
+eval Loss: 6.868725904496387e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 94==============================
+train Loss: 0.0022094518212725234
+eval Loss: 6.277169859458809e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 95==============================
+train Loss: 0.0020687146361524356
+eval Loss: 7.495880026908708e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 96==============================
+train Loss: 0.0030729501345376775
+eval Loss: 6.393149988070945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 97==============================
+train Loss: 0.0020526496118691284
+eval Loss: 6.295886805673945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 98==============================
+train Loss: 0.0020289697085900116
+eval Loss: 6.5273709424218396e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 99==============================
+train Loss: 0.002021308294388291
+eval Loss: 6.084442247811239e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+==============================Summary==============================
+MODEL:
+	BERT model: bert-base-multilingual-cased
+	Number of parameters: 177861130
+DATASET:
+	Number of train Examples: 1255
+	Number of eval Examples: 9
+	Number of labels: 9
+Hyper-Parameters:
+	Max sequence length: 128
+	Learning rate: 2e-05
+	Number of epochs: 100.0
+	Train batch size: 8
+	Eval batch size: 4
+	Adam epsilon: 1e-08
+	Weight decay: 0.0
+	Warmup Proportion: 0.1
+	Max grad norm: 1.0
+	Gradient accumulation steps: 1
+	Seed: 42
+	Cuda: True
+	Feat config: None
+	Use one-hot embbeding: False
+	Output directory: outputs
+	Log directory: logs
+==============================Epoch 0==============================
+train Loss: 196.59216681867838
+eval Loss: 0.9375504739582539
+F1-Score tag: 0.49844236760124605
+F1-Score IOB-tag: 0.49844236760124605
+Metric:
+	O: 0.9968847352024921
+	MISC: 0.0
+	PER: 0.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 0 with best score 0.49844236760124605
+==============================Epoch 1==============================
+train Loss: 28.41879265755415
+eval Loss: 0.023201410192996264
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 1 with best score 1.0
+==============================Epoch 2==============================
+train Loss: 13.951886435505003
+eval Loss: 0.09882187924813479
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 3==============================
+train Loss: 7.469231947558001
+eval Loss: 0.009159033827017993
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 4==============================
+train Loss: 4.3366634324193
+eval Loss: 0.002038364880718291
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 5==============================
+train Loss: 2.4410902119707316
+eval Loss: 0.0014920321118552238
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 6==============================
+train Loss: 1.800671479140874
+eval Loss: 0.001139923944720067
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 7==============================
+train Loss: 1.4294471230532508
+eval Loss: 0.008769773572566919
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 8==============================
+train Loss: 1.0285970420809463
+eval Loss: 0.0006274258921621367
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 9==============================
+train Loss: 1.0247821001394186
+eval Loss: 0.004269814337021671
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 10==============================
+train Loss: 1.0576102877676021
+eval Loss: 0.00046756764641031623
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 11==============================
+train Loss: 1.0594359852402704
+eval Loss: 0.001052583334967494
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 12==============================
+train Loss: 0.5215790050278883
+eval Loss: 0.00032043315150076523
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 13==============================
+train Loss: 0.7262608382297913
+eval Loss: 0.000323287611536216
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 14==============================
+train Loss: 0.25499806433799677
+eval Loss: 0.0002263459246023558
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 15==============================
+train Loss: 0.27629451437678654
+eval Loss: 0.00020557136667775922
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 16==============================
+train Loss: 0.3927560608863132
+eval Loss: 0.00020729067909996957
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 17==============================
+train Loss: 0.33379061261803145
+eval Loss: 0.0001993468358705286
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 18==============================
+train Loss: 0.3807680203317432
+eval Loss: 0.0001663099101278931
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 19==============================
+train Loss: 0.14665757664624834
+eval Loss: 0.00014071203986532055
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 20==============================
+train Loss: 0.36586422788968775
+eval Loss: 0.00014077256491873413
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 21==============================
+train Loss: 0.34989141300320625
+eval Loss: 0.00015619973783032037
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 22==============================
+train Loss: 0.22966377358534373
+eval Loss: 0.0001552706708025653
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 23==============================
+train Loss: 0.29789579853240866
+eval Loss: 0.00012018630877719261
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 24==============================
+train Loss: 0.588089644232241
+eval Loss: 0.0001909401653392706
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 25==============================
+train Loss: 0.5165139933233149
+eval Loss: 0.00010065095557365566
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 26==============================
+train Loss: 0.207778016487282
+eval Loss: 0.00014939308130124118
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 27==============================
+train Loss: 0.08729340351055725
+eval Loss: 8.64323756104568e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 28==============================
+train Loss: 0.17658795860188548
+eval Loss: 0.00012123548731324263
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 29==============================
+train Loss: 0.11602489162396523
+eval Loss: 8.57026443554787e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 30==============================
+train Loss: 0.07018728096591076
+eval Loss: 7.382932744803838e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 31==============================
+train Loss: 0.194437565314729
+eval Loss: 6.567408490809612e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 32==============================
+train Loss: 0.6009770669625141
+eval Loss: 0.00020023571414640173
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 33==============================
+train Loss: 0.2988946194345772
+eval Loss: 8.091698509815615e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 34==============================
+train Loss: 0.3832300236717856
+eval Loss: 6.677168858004734e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 35==============================
+train Loss: 0.17354633443028433
+eval Loss: 5.96841964579653e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 36==============================
+train Loss: 0.12995805853279307
+eval Loss: 5.124657764099538e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 37==============================
+train Loss: 0.08468583712601685
+eval Loss: 5.3441037380252965e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 38==============================
+train Loss: 0.015653865280910395
+eval Loss: 6.227715039130999e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 39==============================
+train Loss: 0.07201602495661064
+eval Loss: 4.2507278521952685e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 40==============================
+train Loss: 0.05093759331066394
+eval Loss: 4.870387328992365e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 41==============================
+train Loss: 0.007621366694365861
+eval Loss: 5.000348755856976e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 42==============================
+train Loss: 0.01942091531782353
+eval Loss: 4.814372459804872e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 43==============================
+train Loss: 0.006221308241947554
+eval Loss: 3.246309734095121e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 44==============================
+train Loss: 0.005532541925276746
+eval Loss: 3.232583094359143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 45==============================
+train Loss: 0.04899506497713446
+eval Loss: 3.024231318704551e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 46==============================
+train Loss: 0.310770635609515
+eval Loss: 0.00010056040810013656
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 47==============================
+train Loss: 0.555347023624563
+eval Loss: 4.7061323130037636e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 48==============================
+train Loss: 0.032326808977813926
+eval Loss: 0.00027988052079308545
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 49==============================
+train Loss: 0.09234409341297578
+eval Loss: 3.927230864064768e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 50==============================
+train Loss: 0.21641912298400712
+eval Loss: 3.066791032324545e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 51==============================
+train Loss: 0.09108254830061924
+eval Loss: 3.240664773329627e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 52==============================
+train Loss: 0.3814206168426608
+eval Loss: 2.7225692974752747e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 53==============================
+train Loss: 0.5441733440602547
+eval Loss: 2.6795154553838074e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 54==============================
+train Loss: 0.09144132334949973
+eval Loss: 2.6566874566924525e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 55==============================
+train Loss: 0.1671726442364161
+eval Loss: 9.72641842054145e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 56==============================
+train Loss: 0.009238987740900484
+eval Loss: 2.1600722902803682e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 57==============================
+train Loss: 0.010736902725511754
+eval Loss: 1.9150852040183963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 58==============================
+train Loss: 0.03690849340546265
+eval Loss: 2.043238237092737e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 59==============================
+train Loss: 0.005225312931543158
+eval Loss: 3.7980079468979966e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 60==============================
+train Loss: 0.006705054122903675
+eval Loss: 1.600462610440445e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 61==============================
+train Loss: 0.08646090210459079
+eval Loss: 1.5756977063574595e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 62==============================
+train Loss: 0.045226160758375045
+eval Loss: 1.5009741218818817e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 63==============================
+train Loss: 0.08372431083444098
+eval Loss: 1.3371943168749567e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 64==============================
+train Loss: 0.01870735021930159
+eval Loss: 1.663495640968904e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 65==============================
+train Loss: 0.0693312266112116
+eval Loss: 1.502095665273373e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 66==============================
+train Loss: 0.05813955688972783
+eval Loss: 1.4632088550570188e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 67==============================
+train Loss: 0.03550783247828804
+eval Loss: 1.2440880709618796e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 68==============================
+train Loss: 0.17245592861581827
+eval Loss: 1.2429555226844968e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 69==============================
+train Loss: 0.0059997202301929065
+eval Loss: 1.984702225854562e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 70==============================
+train Loss: 0.055683345293346065
+eval Loss: 1.0600911991787143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 71==============================
+train Loss: 0.07749302873253328
+eval Loss: 9.507265986030689e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 72==============================
+train Loss: 0.35087243454654526
+eval Loss: 1.1576122233236674e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 73==============================
+train Loss: 0.0034143309517276066
+eval Loss: 9.558666533848736e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 74==============================
+train Loss: 0.046829227439502574
+eval Loss: 9.310102313975221e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 75==============================
+train Loss: 0.006036630868038628
+eval Loss: 1.0113967164215865e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 76==============================
+train Loss: 0.03617325492768941
+eval Loss: 9.274482636101311e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 77==============================
+train Loss: 0.14498146289270153
+eval Loss: 2.2433574940805556e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 78==============================
+train Loss: 0.004315406285968493
+eval Loss: 1.2940748092660215e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 79==============================
+train Loss: 0.06152832426596433
+eval Loss: 1.1418615713409963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 80==============================
+train Loss: 0.04685739237447706
+eval Loss: 1.04555083453306e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 81==============================
+train Loss: 0.003678448889786523
+eval Loss: 9.685092663858086e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 82==============================
+train Loss: 0.040388289155544044
+eval Loss: 9.251235496776644e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 83==============================
+train Loss: 0.003218300836124399
+eval Loss: 9.252064273823635e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 84==============================
+train Loss: 0.0029881545974603796
+eval Loss: 9.031224180944264e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 85==============================
+train Loss: 0.0027703600062523037
+eval Loss: 7.973147148732096e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 86==============================
+train Loss: 0.0026278892887603433
+eval Loss: 7.25049244465481e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 87==============================
+train Loss: 0.0025044207941391505
+eval Loss: 6.880318096591509e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 88==============================
+train Loss: 0.00246002371159193
+eval Loss: 6.564458089997061e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 89==============================
+train Loss: 0.0024187259241443826
+eval Loss: 6.298223979683826e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 90==============================
+train Loss: 0.002307560726421798
+eval Loss: 1.0514259429328376e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 91==============================
+train Loss: 0.002268353182444116
+eval Loss: 6.3351221797347534e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 92==============================
+train Loss: 0.0021960075027891435
+eval Loss: 6.337426839309046e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 93==============================
+train Loss: 0.002206066046255728
+eval Loss: 6.868725904496387e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 94==============================
+train Loss: 0.0022094518212725234
+eval Loss: 6.277169859458809e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 95==============================
+train Loss: 0.0020687146361524356
+eval Loss: 7.495880026908708e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 96==============================
+train Loss: 0.0030729501345376775
+eval Loss: 6.393149988070945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 97==============================
+train Loss: 0.0020526496118691284
+eval Loss: 6.295886805673945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 98==============================
+train Loss: 0.0020289697085900116
+eval Loss: 6.5273709424218396e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 99==============================
+train Loss: 0.002021308294388291
+eval Loss: 6.084442247811239e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+Lock 140529343426256 acquired on /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729.lock
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpf_yszxfq
+storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt in cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+creating metadata file for /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Lock 140529343426256 released on /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729.lock
+loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-vocab.txt from cache at /root/.cache/torch/transformers/96435fa287fbf7e469185f1062386e05a075cadbf6838b74da22bf64b080bc32.99bcd55fc66f4f3360bc49ba472b940b8dcf223ea6a345deb969d607ca900729
+Build model ...
+Lock 140529201587408 acquired on /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0.lock
+https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpt_o1zajr
+storing https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json in cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+creating metadata file for /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Lock 140529201587408 released on /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0.lock
+loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-multilingual-cased-config.json from cache at /root/.cache/torch/transformers/45629519f3117b89d89fd9c740073d8e4c1f0a70f9842476185100a8afe715d1.65df3cef028a0c91a7b059e4c404a975ebe6843c71267b67019c0e9cfa8a88f0
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 119547
+}
+
+Lock 140529201590160 acquired on /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059.lock
+https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin not found in cache or force_download set to True, downloading to /root/.cache/torch/transformers/tmpmr0gwws6
+storing https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin in cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+creating metadata file for /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Lock 140529201590160 released on /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059.lock
+loading weights file https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin from cache at /root/.cache/torch/transformers/3d1d2b2daef1e2b3ddc2180ddaae8b7a37d5f279babce0068361f71cd548f615.7131dcb754361639a7d5526985f880879c9bfd144b65a0bf50590bddb7de9059
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing NerModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing NerModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing NerModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of NerModel were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Prepare dataset ...
+==============================Summary==============================
+MODEL:
+	BERT model: bert-base-multilingual-cased
+	Number of parameters: 177861130
+DATASET:
+	Number of train Examples: 1255
+	Number of eval Examples: 9
+	Number of labels: 9
+Hyper-Parameters:
+	Max sequence length: 128
+	Learning rate: 2e-05
+	Number of epochs: 100.0
+	Train batch size: 8
+	Eval batch size: 4
+	Adam epsilon: 1e-08
+	Weight decay: 0.0
+	Warmup Proportion: 0.1
+	Max grad norm: 1.0
+	Gradient accumulation steps: 1
+	Seed: 42
+	Cuda: True
+	Feat config: None
+	Use one-hot embbeding: False
+	Output directory: outputs
+	Log directory: logs
+==============================Epoch 0==============================
+train Loss: 196.59216681867838
+eval Loss: 0.9375504739582539
+F1-Score tag: 0.49844236760124605
+F1-Score IOB-tag: 0.49844236760124605
+Metric:
+	O: 0.9968847352024921
+	MISC: 0.0
+	PER: 0.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 0 with best score 0.49844236760124605
+==============================Epoch 1==============================
+train Loss: 28.41879265755415
+eval Loss: 0.023201410192996264
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+Model save at epoch 1 with best score 1.0
+==============================Epoch 2==============================
+train Loss: 13.951886435505003
+eval Loss: 0.09882187924813479
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 3==============================
+train Loss: 7.469231947558001
+eval Loss: 0.009159033827017993
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 4==============================
+train Loss: 4.3366634324193
+eval Loss: 0.002038364880718291
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 5==============================
+train Loss: 2.4410902119707316
+eval Loss: 0.0014920321118552238
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 6==============================
+train Loss: 1.800671479140874
+eval Loss: 0.001139923944720067
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 7==============================
+train Loss: 1.4294471230532508
+eval Loss: 0.008769773572566919
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 8==============================
+train Loss: 1.0285970420809463
+eval Loss: 0.0006274258921621367
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 9==============================
+train Loss: 1.0247821001394186
+eval Loss: 0.004269814337021671
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 10==============================
+train Loss: 1.0576102877676021
+eval Loss: 0.00046756764641031623
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 11==============================
+train Loss: 1.0594359852402704
+eval Loss: 0.001052583334967494
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 12==============================
+train Loss: 0.5215790050278883
+eval Loss: 0.00032043315150076523
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 13==============================
+train Loss: 0.7262608382297913
+eval Loss: 0.000323287611536216
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 14==============================
+train Loss: 0.25499806433799677
+eval Loss: 0.0002263459246023558
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 15==============================
+train Loss: 0.27629451437678654
+eval Loss: 0.00020557136667775922
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 16==============================
+train Loss: 0.3927560608863132
+eval Loss: 0.00020729067909996957
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 17==============================
+train Loss: 0.33379061261803145
+eval Loss: 0.0001993468358705286
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 18==============================
+train Loss: 0.3807680203317432
+eval Loss: 0.0001663099101278931
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 19==============================
+train Loss: 0.14665757664624834
+eval Loss: 0.00014071203986532055
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 20==============================
+train Loss: 0.36586422788968775
+eval Loss: 0.00014077256491873413
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 21==============================
+train Loss: 0.34989141300320625
+eval Loss: 0.00015619973783032037
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 22==============================
+train Loss: 0.22966377358534373
+eval Loss: 0.0001552706708025653
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 23==============================
+train Loss: 0.29789579853240866
+eval Loss: 0.00012018630877719261
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 24==============================
+train Loss: 0.588089644232241
+eval Loss: 0.0001909401653392706
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 25==============================
+train Loss: 0.5165139933233149
+eval Loss: 0.00010065095557365566
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 26==============================
+train Loss: 0.207778016487282
+eval Loss: 0.00014939308130124118
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 27==============================
+train Loss: 0.08729340351055725
+eval Loss: 8.64323756104568e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 28==============================
+train Loss: 0.17658795860188548
+eval Loss: 0.00012123548731324263
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 29==============================
+train Loss: 0.11602489162396523
+eval Loss: 8.57026443554787e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 30==============================
+train Loss: 0.07018728096591076
+eval Loss: 7.382932744803838e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 31==============================
+train Loss: 0.194437565314729
+eval Loss: 6.567408490809612e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 32==============================
+train Loss: 0.6009770669625141
+eval Loss: 0.00020023571414640173
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 33==============================
+train Loss: 0.2988946194345772
+eval Loss: 8.091698509815615e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 34==============================
+train Loss: 0.3832300236717856
+eval Loss: 6.677168858004734e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 35==============================
+train Loss: 0.17354633443028433
+eval Loss: 5.96841964579653e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 36==============================
+train Loss: 0.12995805853279307
+eval Loss: 5.124657764099538e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 37==============================
+train Loss: 0.08468583712601685
+eval Loss: 5.3441037380252965e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 38==============================
+train Loss: 0.015653865280910395
+eval Loss: 6.227715039130999e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 39==============================
+train Loss: 0.07201602495661064
+eval Loss: 4.2507278521952685e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 40==============================
+train Loss: 0.05093759331066394
+eval Loss: 4.870387328992365e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 41==============================
+train Loss: 0.007621366694365861
+eval Loss: 5.000348755856976e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 42==============================
+train Loss: 0.01942091531782353
+eval Loss: 4.814372459804872e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 43==============================
+train Loss: 0.006221308241947554
+eval Loss: 3.246309734095121e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 44==============================
+train Loss: 0.005532541925276746
+eval Loss: 3.232583094359143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 45==============================
+train Loss: 0.04899506497713446
+eval Loss: 3.024231318704551e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 46==============================
+train Loss: 0.310770635609515
+eval Loss: 0.00010056040810013656
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 47==============================
+train Loss: 0.555347023624563
+eval Loss: 4.7061323130037636e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 48==============================
+train Loss: 0.032326808977813926
+eval Loss: 0.00027988052079308545
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 49==============================
+train Loss: 0.09234409341297578
+eval Loss: 3.927230864064768e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 50==============================
+train Loss: 0.21641912298400712
+eval Loss: 3.066791032324545e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 51==============================
+train Loss: 0.09108254830061924
+eval Loss: 3.240664773329627e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 52==============================
+train Loss: 0.3814206168426608
+eval Loss: 2.7225692974752747e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 53==============================
+train Loss: 0.5441733440602547
+eval Loss: 2.6795154553838074e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 54==============================
+train Loss: 0.09144132334949973
+eval Loss: 2.6566874566924525e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 55==============================
+train Loss: 0.1671726442364161
+eval Loss: 9.72641842054145e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 56==============================
+train Loss: 0.009238987740900484
+eval Loss: 2.1600722902803682e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 57==============================
+train Loss: 0.010736902725511754
+eval Loss: 1.9150852040183963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 58==============================
+train Loss: 0.03690849340546265
+eval Loss: 2.043238237092737e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 59==============================
+train Loss: 0.005225312931543158
+eval Loss: 3.7980079468979966e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 60==============================
+train Loss: 0.006705054122903675
+eval Loss: 1.600462610440445e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 61==============================
+train Loss: 0.08646090210459079
+eval Loss: 1.5756977063574595e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 62==============================
+train Loss: 0.045226160758375045
+eval Loss: 1.5009741218818817e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 63==============================
+train Loss: 0.08372431083444098
+eval Loss: 1.3371943168749567e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 64==============================
+train Loss: 0.01870735021930159
+eval Loss: 1.663495640968904e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 65==============================
+train Loss: 0.0693312266112116
+eval Loss: 1.502095665273373e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 66==============================
+train Loss: 0.05813955688972783
+eval Loss: 1.4632088550570188e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 67==============================
+train Loss: 0.03550783247828804
+eval Loss: 1.2440880709618796e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 68==============================
+train Loss: 0.17245592861581827
+eval Loss: 1.2429555226844968e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 69==============================
+train Loss: 0.0059997202301929065
+eval Loss: 1.984702225854562e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 70==============================
+train Loss: 0.055683345293346065
+eval Loss: 1.0600911991787143e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 71==============================
+train Loss: 0.07749302873253328
+eval Loss: 9.507265986030689e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 72==============================
+train Loss: 0.35087243454654526
+eval Loss: 1.1576122233236674e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 73==============================
+train Loss: 0.0034143309517276066
+eval Loss: 9.558666533848736e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 74==============================
+train Loss: 0.046829227439502574
+eval Loss: 9.310102313975221e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 75==============================
+train Loss: 0.006036630868038628
+eval Loss: 1.0113967164215865e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 76==============================
+train Loss: 0.03617325492768941
+eval Loss: 9.274482636101311e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 77==============================
+train Loss: 0.14498146289270153
+eval Loss: 2.2433574940805556e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 78==============================
+train Loss: 0.004315406285968493
+eval Loss: 1.2940748092660215e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 79==============================
+train Loss: 0.06152832426596433
+eval Loss: 1.1418615713409963e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 80==============================
+train Loss: 0.04685739237447706
+eval Loss: 1.04555083453306e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 81==============================
+train Loss: 0.003678448889786523
+eval Loss: 9.685092663858086e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 82==============================
+train Loss: 0.040388289155544044
+eval Loss: 9.251235496776644e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 83==============================
+train Loss: 0.003218300836124399
+eval Loss: 9.252064273823635e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 84==============================
+train Loss: 0.0029881545974603796
+eval Loss: 9.031224180944264e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 85==============================
+train Loss: 0.0027703600062523037
+eval Loss: 7.973147148732096e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 86==============================
+train Loss: 0.0026278892887603433
+eval Loss: 7.25049244465481e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 87==============================
+train Loss: 0.0025044207941391505
+eval Loss: 6.880318096591509e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 88==============================
+train Loss: 0.00246002371159193
+eval Loss: 6.564458089997061e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 89==============================
+train Loss: 0.0024187259241443826
+eval Loss: 6.298223979683826e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 90==============================
+train Loss: 0.002307560726421798
+eval Loss: 1.0514259429328376e-05
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 91==============================
+train Loss: 0.002268353182444116
+eval Loss: 6.3351221797347534e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 92==============================
+train Loss: 0.0021960075027891435
+eval Loss: 6.337426839309046e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 93==============================
+train Loss: 0.002206066046255728
+eval Loss: 6.868725904496387e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 94==============================
+train Loss: 0.0022094518212725234
+eval Loss: 6.277169859458809e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 95==============================
+train Loss: 0.0020687146361524356
+eval Loss: 7.495880026908708e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 96==============================
+train Loss: 0.0030729501345376775
+eval Loss: 6.393149988070945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 97==============================
+train Loss: 0.0020526496118691284
+eval Loss: 6.295886805673945e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 98==============================
+train Loss: 0.0020289697085900116
+eval Loss: 6.5273709424218396e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
+==============================Epoch 99==============================
+train Loss: 0.002021308294388291
+eval Loss: 6.084442247811239e-06
+F1-Score tag: 1.0
+F1-Score IOB-tag: 1.0
+Metric:
+	O: 1.0
+	MISC: 0.0
+	PER: 1.0
+	ORG: 0.0
+	LOC: 0.0
